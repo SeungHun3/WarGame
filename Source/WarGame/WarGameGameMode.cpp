@@ -3,7 +3,6 @@
 #include "WarGameGameMode.h"
 #include "WarGameCharacter.h"
 #include "UObject/ConstructorHelpers.h"
-
 AWarGameGameMode::AWarGameGameMode()
 {
 	// set default pawn class to our Blueprinted character
@@ -12,4 +11,5 @@ AWarGameGameMode::AWarGameGameMode()
 	{
 		DefaultPawnClass = PlayerPawnBPClass.Class;
 	}
+
 }
